@@ -7,7 +7,7 @@ import { TechnologiesStore } from '../../services/technologies-store/technologie
   selector: 'home',
   providers: [ TechnologiesStore ],
   templateUrl: './app/components/home/home.html',
-  directives: []
+  directives: [ThemeCard]
 })
 export class Home {
 
